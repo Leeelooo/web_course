@@ -18,7 +18,9 @@ body {
 }
 .body_code_explanation,
 .body_ascii,
-.body_quote {
+.body_quote,
+.body_default,
+.achi_item {
     font-family: 'Roboto';
     color: var(--text-on-surface);
 }
@@ -46,13 +48,12 @@ a:active {
     text-transform: uppercase;
     margin-right: 12px;
 }
-.menu_anchors {
-    margin: auto;
-    width: 35%;
-}
+.menu_anchors,
 .menu_contacts {
-    margin: auto;
-    width: 45%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .content_card {
     background-color: var(--dark-theme-surface);
@@ -65,4 +66,14 @@ a:active {
 }
 .profile_picture {
     border-radius: 50%;
+    margin-top: 24px;
+    margin-right: 64px;
+}
+.profile_info {
+    margin-top: 36px;
+    margin-right: 8px;
+}
+.header_content {
+    display: flex;
+    flex-direction: row-reverse;
 }
