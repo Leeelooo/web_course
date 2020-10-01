@@ -1,0 +1,68 @@
+:root {
+    --dark-theme-background:#121212;
+    --text-on-backgroud:#fff;
+    --dark-theme-surface: #353535;
+    --text-on-surface:#fff;
+    --primary-color:#7e57c2;
+    --primary-light:#b085f5;
+    --secondary-color:#303f9f;
+}
+body {
+    background: var(--dark-theme-background);
+}
+.title_page,
+.subtitle_page,
+.title_section {
+    font-family: 'Open Sans';
+    color: var(--text-on-backgroud);
+}
+.body_code_explanation,
+.body_ascii,
+.body_quote {
+    font-family: 'Roboto';
+    color: var(--text-on-surface);
+}
+.body_code {
+    font-family: 'Ubuntu Mono';
+    color: var(--text-on-surface);
+}
+a {text-decoration:none;}
+a:link{
+    font-family: 'Open Sans';
+    color: var(--primary-color);
+}
+a:visited {
+    font-family: 'Open Sans';
+    color: var(--secondary-color);
+}
+a:hover,
+a:active {
+    font-family: 'Open Sans';
+    color: var(--primary-light);
+}
+.anchor_menu_item,
+.contact_menu_item {
+    display: inline;
+    text-transform: uppercase;
+    margin-right: 12px;
+}
+.menu_anchors {
+    margin: auto;
+    width: 35%;
+}
+.menu_contacts {
+    margin: auto;
+    width: 45%;
+}
+.content_card {
+    background-color: var(--dark-theme-surface);
+    border-radius: 32px;
+    padding: 8px 32px 8px 32px;
+    margin: 32px;
+}
+.title_section {
+    text-align: center;
+}
+.profile_picture {
+    border-radius: 50%;
+}

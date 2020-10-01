@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="ru">
+    
+<head>        
+    <title>Горин Антон — M33031</title>
+    <meta charset="utf-8">
+    <meta name="keywords" content="Android, Portfolio, Pepe">
+    <!-- <link rel="stylesheet" href="assets/css/outlines.css">     -->
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu+Mono">
+</head>
+    
+<body>
+    <header>
+        
+        <div class="header_content">
+            <img src="assets/images/me.jpg" alt="me" width="180" height="180" class="profile_picture"/>
+            <div class="profile_info">
+                <h1 class="title_page">Антон Горин</h1>
+                <h2 class="subtitle_page">Android pepega</h2>
+            </div>
+        </div>
+
+        <nav class="menu_anchors">
+            <ul>
+                <li class="anchor_menu_item"><a href="#projects">Достижения</a></li>
+                <li class="anchor_menu_item"><a href="#code">Код</a></li>
+                <li class="anchor_menu_item"><a href="#mascot">Маскот</a></li>
+                <li class="anchor_menu_item"><a href="#quote">Ауф</a></li>
+                <li class="anchor_menu_item"><a href="#contacts">Контакты</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <div class="main_content">
+
+        <section class="content_card" id="projects">
+
+        </section>
+
+        <section class="content_card" id="code">
+            <h3 class="title_section">Никогда не делай такого кода</h3>
+            <p class="body_code_explanation">Да, я тварь которая выполняет запросы в главном потоке:</p>
+            <pre class="body_code">
+<code>@Singleton
+@Provides
+fun provideDatabase(@ApplicationContext context: Context): EsistDatabase =
+    Room.databaseBuilder(
+        context.applicationContext,
+        EsistDatabase::class.java,
+        "esist.db"
+    ).allowMainThreadQueries().build()</code></pre>
+        </section>
+
+        <section class="content_card" id="mascot">
+            <h3 class="title_section">ASCII маскот</h3>
+            <pre class="body_ascii">__________████████_____██████
+_________█░░░░░░░░██_██░░░░░░█
+________█░░░░░░░░░░░█░░░░░░░░░█
+_______█░░░░░░░███░░░█░░░░░░░░░█
+_______█░░░░███░░░███░█░░░████░█
+______█░░░██░░░░░░░░███░██░░░░██
+_____█░░░░░░░░░░░░░░░░░█░░░░░░░░███
+____█░░░░░░░░░░░░░██████░░░░░████░░█
+____█░░░░░░░░░█████░░░████░░██░░██░░█
+___██░░░░░░░███░░░░░░░░░░█░░░░░░░░███
+__█░░░░░░░░░░░░░░█████████░░█████████
+_█░░░░░░░░░░█████_████___████_█████___█
+_█░░░░░░░░░░█______█_███__█_____███_█___█
+█░░░░░░░░░░░░█___████_████____██_██████
+░░░░░░░░░░░░░█████████░░░████████░░░█
+░░░░░░░░░░░░░░░░█░░░░░█░░░░░░░░░░░░█
+░░░░░░░░░░░░░░░░░░░░██░░░░█░░░░░░██
+░░░░░░░░░░░░░░░░░░██░░░░░░░███████
+░░░░░░░░░░░░░░░░██░░░░░░░░░░█░░░░░█
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░█
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░█
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░█
+░░░░░░░░░░░█████████░░░░░░░░░░░░░░██
+░░░░░░░░░░█▒▒▒▒▒▒▒▒███████████████▒▒█
+░░░░░░░░░█▒▒███████▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒█
+░░░░░░░░░█▒▒▒▒▒▒▒▒▒█████████████████
+░░░░░░░░░░████████▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒█
+░░░░░░░░░░░░░░░░░░██████████████████
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░█
+██░░░░░░░░░░░░░░░░░░░░░░░░░░░██
+▓██░░░░░░░░░░░░░░░░░░░░░░░░██
+▓▓▓███░░░░░░░░░░░░░░░░░░░░█
+▓▓▓▓▓▓███░░░░░░░░░░░░░░░██
+▓▓▓▓▓▓▓▓▓███████████████▓▓█
+▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓██
+▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓█
+▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓█</pre>     
+        </section>
+
+        <section class="content_card" id="quote">
+            <h3 class="title_section">Цитата</h3>
+            <blockquote class="body_quote">Не будь <em>эгоистом</em> — в первую очередь думай о <strong>себе</strong>.</blockquote>
+        </section>
+
+    </div>
+        
+    <footer>
+
+        <nav class="menu_contacts" id="contacts">
+            <ul>
+                <li class="contact_menu_item"><a href="mailto:anton.gorin.al@gmail.com">Можешь написать</a></li>
+                <li class="contact_menu_item"><a href="https://github.com/Leeelooo" target="_blank">А можешь и нет</a></li>
+                <li class="contact_menu_item"><a href="https://t.me/CheshireCt" target="_blank">Ну или все-таки да</a></li>
+            </ul>
+        </nav>
+        
+    </footer>
+
+</body>
+</html>
