@@ -68,14 +68,6 @@ a:active {
     padding: 8px 32px 8px 32px;
     margin: 32px;
 }
-.two_columned_card {
-    width: 43.2%;
-    background-color: var(--dark-theme-surface);
-    word-wrap: break-word;
-    border-radius: 32px;
-    padding: 8px 32px 8px 32px;
-    margin: 32px;
-}
 .title_section {
     text-align: center;
 }
