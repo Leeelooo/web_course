@@ -1,22 +1,23 @@
 <!DOCTYPE html>
 <html lang="ru">
-    
+    <!-- align items -->
 <head>        
     <title>Горин Антон — M33031</title>
     <meta charset="utf-8">
     <meta name="keywords" content="Android, Portfolio, Pepe">
-    <!-- <link rel="stylesheet" href="assets/css/outlines.css">     -->
+    <link rel="shortcut icon" href="">
     <link rel="stylesheet" href="assets/css/styles.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu+Mono">
+    <script type="module" src="assets/js/main.js"></script>
 </head>
     
 <body>
     <header>
         
         <div class="header_content">
-            <img src="assets/images/me.jpg" alt="me" width="180" height="180" class="profile_picture"/>
+            <img src="assets/images/me1.jpg" alt="me" width="180" height="180" class="profile_picture" onclick="changeIcon()"/>
             <div class="profile_info">
                 <h1 class="title_page">Антон Горин</h1>
                 <h2 class="subtitle_page">Android pepega</h2>
@@ -40,22 +41,20 @@
         <section class="content_card" id="achievements">
             <h3 class="title_section">Достижения</h3>
             <ul>
-                <li class="achi_item">Олимпиудки</li>
+                <li class="achi_item">Pepe на сайте</li>
                 <dl>
-                    <dd class="achi_item">Математика</dd>
-                    <dd class="achi_item">Информатика</dd>
-                    <dd class="achi_item">Физика(????)</dd>
+                    <dd class="achi_item">и даже аски</dd>
                 </dl>
-                <li class="achi_item">Научный лагерь</li>
+                <li class="achi_item">NAIST лагерь</li>
                 <dl>
                     <dd class="achi_item">Диплом за Craftmanship</dd>
                     <dd class="achi_item">Диплом за научный лагерь</dd>
                 </dl>
-                <li class="achi_item">Поступление в университет</li>
+                <li class="achi_item">Cutting the edge</li>
             </ul>
         </section>
 
-        <section class="content_card" id="code">
+        <section class="two_columned_card" id="code">
             <h3 class="title_section">Никогда не делай такого кода</h3>
             <p class="body_code_explanation">Да, я выполняю запросы в главном потоке:</p>
             <pre class="body_code">
@@ -69,7 +68,7 @@ fun provideDatabase(@ApplicationContext context: Context): EsistDatabase =
     ).allowMainThreadQueries().build()</code></pre>
         </section>
 
-        <section class="content_card" id="mascot">
+        <section class="two_columned_card" id="mascot">
             <h3 class="title_section">ASCII маскот</h3>
             <pre class="body_ascii">__________████████_____██████
 _________█░░░░░░░░██_██░░░░░░█
@@ -132,6 +131,20 @@ _█░░░░░░░░░░█______█_███__█_____███_█_
         </nav>
         
     </footer>
+
+    <button class="contacts_fab">
+        <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24">
+            <path d="M0 0h24v24H0z" fill="none"/>
+            <path d="M22 3H2C.9 3 0 3.9 0 5v14c0 1.1.9 2 2 2h20c1.1 0 1.99-.9 1.99-2L24 5c0-1.1-.9-2-2-2zm0 16H2V5h20v14zM21 6h-7v5h7V6zm-1 2l-2.5 1.75L15 8V7l2.5 1.75L20 7v1zM9 12c1.65 0 3-1.35 3-3s-1.35-3-3-3-3 1.35-3 3 1.35 3 3 3zm0-4c.55 0 1 .45 1 1s-.45 1-1 1-1-.45-1-1 .45-1 1-1zm6 8.59c0-2.5-3.97-3.58-6-3.58s-6 1.08-6 3.58V18h12v-1.41zM5.48 16c.74-.5 2.22-1 3.52-1s2.77.49 3.52 1H5.48z" fill="#FFF"/>
+        </svg>
+    </button>
+
+    <div class="contacts">
+        <h2 class="subtitle_page">Контакты:</h2>
+        <a href="mailto:anton.gorin.al@gmail.com">Можешь написать</a>
+        <a href="https://github.com/Leeelooo" target="_blank">А можешь и нет</a>
+        <a href="https://t.me/CheshireCt" target="_blank">Ну или все-таки да</a>
+    </div>
 
 </body>
 </html>
