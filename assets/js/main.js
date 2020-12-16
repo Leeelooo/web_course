@@ -51,9 +51,9 @@ fab.onclick = function() {
 };
 
 const avatars = [
-    window.location.href + '/assets/images/me1.jpg',
-    window.location.href + '/assets/images/me2.jpg',
-    window.location.href + '/assets/images/me3.jpg'
+    document.URL + '/assets/images/me1.jpg',
+    document.URL + '/assets/images/me2.jpg',
+    document.URL + '/assets/images/me3.jpg'
 ];
 var currentAvatar = 0;
 const avatarImage = document.querySelector('img.profile_picture');
